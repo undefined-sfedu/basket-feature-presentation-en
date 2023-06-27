@@ -1,0 +1,27 @@
+.page-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.page-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-black);
+}
+.page-text {
+  color: var(--dl-color-gray-white);
+  align-self: center;
+}
+.page-text1 {
+  color: var(--dl-color-gray-white);
+  align-self: center;
+}
+.page-text3 {
+  color: var(--dl-color-gray-white);
+}
